@@ -46,14 +46,16 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 const Gap(25),
-                Row(
-                  children: [
-                    const Icon(
-                      FluentSystemIcons.ic_fluent_search_regular,
-                      color: Color(0xFFBFC205),
-                    ),
-                    Text('Search',style: Styles.headLineStyle4,)
-                  ],
+                Container(
+                  child: Row(
+                    children: [
+                      const Icon(
+                        FluentSystemIcons.ic_fluent_search_regular,
+                        color: Color(0xFFBFC205),
+                      ),
+                      Text('Search popular porn stars',style: Styles.headLineStyle4,)
+                    ],
+                  ),
                 )
               ],
             ),
